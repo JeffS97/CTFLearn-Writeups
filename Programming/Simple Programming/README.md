@@ -27,4 +27,5 @@ file1.close()
 
 **Step 3:**
 Execute the script to get the flag output: ``6662``
+
 Thus the flag is simply ``6662`` OR ``CTFlearn{6662}``
