@@ -3,13 +3,15 @@
 The idea of this challenge is to find the flag through checking Wikipedia's edit history with the user IP address given. 
 
 **Step 1:**
-Head to  and there you will see this
+Head to https://en.wikipedia.org/wiki/Main_Page and search for the ip address given ``128.125.52.138``
 
-![image](https://user-images.githubusercontent.com/40801372/130971084-d3cb8da4-1f5f-4070-89bd-ba9d8957a4fa.png)
+![image](https://user-images.githubusercontent.com/40801372/130972040-0b7ca16b-e705-4fbe-859e-aeefdf7ce946.png)
+
+You will see this page which is the contribution made to the page "Flag" by the user with that ip address
 
 **Step 2:**
-Notice that there is a disallow page and this is where you will find the flag, just go to https://ctflearn.com/70r3hnanldfspufdsoifnlds.html and the flag is as shown
+Click on the "diff" button to see what changes the user actually made to the page, and this is where you will find the flag
 
-![image](https://user-images.githubusercontent.com/40801372/130971269-212c143c-be78-49de-ab45-9a9a646aa3fd.png)
+![image](https://user-images.githubusercontent.com/40801372/130972217-30a6d578-9bd9-4f95-a7ee-3a21beeac9fb.png)
 
-Thus the flag is simply ``CTFlearn{r0b0ts_4r3_th3_futur3}``
+Thus the flag is simply ``cNi76bV2IVERlh97hP``
